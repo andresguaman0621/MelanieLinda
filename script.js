@@ -27,7 +27,7 @@ document.body.appendChild(botonNo);
 // Botón SI
 var botonSi = document.createElement('button');
 botonSi.id = 'botonSi';
-botonSi.textContent = 'NO CHAO';
+botonSi.textContent = 'NO CHAO :(';
 document.body.appendChild(botonSi);
 
 // Función para mover el botón SI
