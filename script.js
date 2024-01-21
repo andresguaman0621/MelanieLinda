@@ -11,13 +11,13 @@ alert('Te considero mi mejor amistad (il mio migliore amico)🤌🏻');
 // Pregunta
 var pregunta = document.createElement('div');
 pregunta.id = 'pregunta';
-pregunta.textContent = 'LO SIENTO ¿Podemos estar bien?';
+pregunta.textContent = 'LO SIENTO ¿PODEMOS ESTAR BIEN?';
 document.body.appendChild(pregunta);
 
 // Botón NO
 var botonNo = document.createElement('button');
 botonNo.id = 'botonNo';
-botonNo.textContent = 'NO CHAO :(';
+botonNo.textContent = 'SI ANDRESITO BELLO';
 botonNo.addEventListener('click', function() {
     // Muestra una alerta al hacer clic en NO
     alert('Muy linda tu respuesta jeje, que tengas un lindo día mi doctora favorita 🦷');
@@ -27,7 +27,7 @@ document.body.appendChild(botonNo);
 // Botón SI
 var botonSi = document.createElement('button');
 botonSi.id = 'botonSi';
-botonSi.textContent = 'SI ANDRESITO BELLO';
+botonSi.textContent = 'NO CHAO';
 document.body.appendChild(botonSi);
 
 // Función para mover el botón SI
