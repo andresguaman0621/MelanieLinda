@@ -1,31 +1,33 @@
 // Muestra una alerta inicial
-alert('A ver MELAAA, tengo algo que decirte');
-alert('No me gusta para nada verte todo desanimada, sin ganas de nada, con una actitud triste :( ');
-alert('Ya se que quizá no sea nada, pero si algo pasa, espero que todo mejore y sabes que me puedes contar conmigo ❤️');
-alert('Mela, Tu eres una chica tan alegre, feliz, extrovertida');
-alert('Pero sobre todo eres mi mejor amiga y te quiero un monton Melis');
-alert('ENTONCES...');
+alert('MELAAAAAA 🥹');
+alert('De mi parte, siento mucho si te hice desanimar o te hice sentir mal, no hay excusas😞');
+alert('Pero, si te digo que estas brava, no es por joderte. Solo que no me gusta verte así, siento que algo malo te pasó 🤧');
+alert('Igual se que uno no siempre puede estar bien, y si algún día ocupas algo. YO ESTOY 25/8🫡 porque me importas');
+alert('Como decía, eres de las pocas personas que quisiera tener siempre presente. A mis ojos eres una chica que no cualquiera se merece tu amistad🫶🏻');
+alert('En la vida, he tenido esa confianza y timing para conversar de cualquier huevada con una personita 🐝');
+alert('Te considero mi mejor amistad (il mio migliore amico)🤌🏻');
+
 
 // Pregunta
 var pregunta = document.createElement('div');
 pregunta.id = 'pregunta';
-pregunta.textContent = '¿YA NO VAS A ESTAR BRAVITA?';
+pregunta.textContent = 'LO SIENTO ¿Podemos estar bien?';
 document.body.appendChild(pregunta);
 
 // Botón NO
 var botonNo = document.createElement('button');
 botonNo.id = 'botonNo';
-botonNo.textContent = 'NO, YA ESTOY BIEN';
+botonNo.textContent = 'NO CHAO :(';
 botonNo.addEventListener('click', function() {
     // Muestra una alerta al hacer clic en NO
-    alert('Muy bien, eue estes teniendo un lindo dias MELA, cuidate');
+    alert('Muy linda tu respuesta jeje, que tengas un lindo día mi doctora favorita 🦷');
 });
 document.body.appendChild(botonNo);
 
 // Botón SI
 var botonSi = document.createElement('button');
 botonSi.id = 'botonSi';
-botonSi.textContent = 'SI, ANDO DESANIMADA';
+botonSi.textContent = 'SI ANDRESITO BELLO';
 document.body.appendChild(botonSi);
 
 // Función para mover el botón SI
