@@ -25,13 +25,13 @@ body {
 #botonNo {
     left: 35%;
     transform: translateX(-50%);
-    background-color: #ff0000;
+    background-color: #40d652;
 }
 
 #botonSi {
     left: 65%;
     transform: translateX(-50%);
-    background-color: #40d652;
+    background-color: #ff0000;
 }
 
 #botonSi:disabled {
